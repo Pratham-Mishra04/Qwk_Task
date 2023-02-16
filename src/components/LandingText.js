@@ -11,7 +11,7 @@ const LandingText = () => {
             <div className="text-3xl font-bold text-[#6024E0]">Why do you need 10 apps?</div>
 
             <div className="flex flex-col justify-center items-center w-1/2">
-                <div className="flex w-full">
+                <div className="flex w-full gap-3">
                     <img
                         src="/google_play.png"
                         alt=""
