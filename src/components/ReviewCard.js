@@ -7,7 +7,7 @@ const ReviewCard = ({ name, review, rating, img }) => {
         else ratingArr.push(-1);
     }
     return (
-        <div className="rounded-3xl flex flex-col w-1/3 gap-5 border-2 border-black p-10">
+        <div className="rounded-3xl flex flex-col w-1/3 gap-5 border-2 bg-slate-100 border-black p-10">
             <div className="flex">
                 <div className="rounded-full border-2 border-black bg-slate-600 w-24 h-24">
                     <img src={img} alt="" className="w-24 h-24 rounded-full" />

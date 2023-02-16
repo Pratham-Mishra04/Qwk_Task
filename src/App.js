@@ -9,12 +9,14 @@ import OneApp from './sections/OneApp';
 function App() {
   return (
    <>
-    <Navbar/>
+   <div className='bg-[#F5F5F5] bg'>
+   <Navbar/>
     <Landing/>
     <OneApp/>
     <AllEssentials/>
     <HappyUser/>
     <Footer/>
+   </div>
   </>
   );
 }

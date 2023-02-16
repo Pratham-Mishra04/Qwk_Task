@@ -3,8 +3,8 @@ import React from 'react';
 const AllEssentialsCircle = () => {
     return (
         <div className='relative w-[42rem] flex items-center justify-center'>
-            <div className="rounded-full relative w-124 h-124 bg-blue-800 flex items-center justify-center">
-                <div className="text-5xl w-1/2 self-start my-12 font-bold text-white">
+            <div className="rounded-full relative w-124 h-124 bg-[#785CFF] flex items-center justify-center">
+                <div className="text-5xl w-1/2 self-start my-12 font-bold text-white text-opacity-50">
                     Access to Convenience Redefined
                 </div>
                 <img

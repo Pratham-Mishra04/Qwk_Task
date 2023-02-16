@@ -5,7 +5,7 @@ const Landing = () => {
     return (
         <div className="h-132 px-32 flex items-center gap-24    ">
             <LandingText />
-            <img src="/phoneLanding.png" alt="" className='h-3/4'/>
+            <img src="/phoneLanding.png" alt="" className='h-1/2'/>
         </div>
     );
 };
