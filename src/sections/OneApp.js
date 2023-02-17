@@ -14,7 +14,7 @@ const OneApp = () => {
     }
 
   return (
-    <div>
+    <div className='flex flex-col gap-12'>
         <div className='h-64 flex flex-col justify-center items-center gap-8'>
             <div className='text-7xl font-semibold text-[#6024E0]'>
                 🤩Everything you could possibly need

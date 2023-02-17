@@ -14,7 +14,7 @@ const AllEssentialsCircle = () => {
                 />
             </div>
 
-            <div className="absolute flex rounded-xl w-44 items-center p-3 gap-4 bg-white h-20 top-5 right-7">
+            <div className="absolute flex shadow-custom rounded-xl w-44 items-center p-3 gap-4 bg-white h-20 top-5 right-7">
                     <img src="/medicines.png" alt="" className="w-1/3 -rotate-[30deg]" />
                     <div className="flex flex-col gap-1">
                         <div className="font-bold text-lg">Get</div>
@@ -22,7 +22,7 @@ const AllEssentialsCircle = () => {
                     </div>
                 </div>
 
-                <div className="absolute flex rounded-xl w-44 items-center p-3 gap-4 bg-white h-20 top-[8rem] right-0 ">
+                <div className="absolute flex shadow-custom rounded-xl w-44 items-center p-3 gap-4 bg-white h-20 top-[8rem] right-0 ">
                     <img src="/bills.png" alt="" className="w-1/3 -rotate-[30deg]" />
                     <div className="flex flex-col gap-1">
                         <div className="font-bold text-lg">Bill</div>
@@ -30,7 +30,7 @@ const AllEssentialsCircle = () => {
                     </div>
                 </div>
 
-                <div className="absolute flex rounded-xl w-52 items-center p-3 gap-4 bg-white h-20 bottom-16 left-8">
+                <div className="absolute flex shadow-custom rounded-xl w-52 items-center p-3 gap-4 bg-white h-20 bottom-16 left-8">
                     <img src="/clock.png" alt="" className="w-1/3" />
                     <div className="flex flex-col gap-1">
                         <div className="font-bold text-lg">Delivery in</div>
@@ -38,14 +38,14 @@ const AllEssentialsCircle = () => {
                     </div>
                 </div>
 
-                <div className='bg-white flex flex-col rounded-xl h-72 w-44 absolute bottom-0 right-5 items-center'>
+                <div className='bg-white shadow-custom flex flex-col rounded-xl h-72 w-44 absolute bottom-0 right-5 items-center'>
                   <img src="burger.png" alt="" className='h-40 w-40'/>
                   <div className='my-3 text-sm'>Zinger Burger</div>
                   <div className='text-2xl font-bold'>Rs.184.60</div>
                   <div className='text-xs my-1'>Free Delivery</div>
                 </div>
 
-                <div className='flex flex-col rounded-xl h-72 w-44 absolute top-0 left-2 bg-white items-center'>
+                <div className='flex shadow-custom flex-col rounded-xl h-72 w-44 absolute top-0 left-2 bg-white items-center'>
                   <img src="orange.png" alt="" className='h-40 w-40'/>
                   <div className='my-3 text-sm'>Fresh Orange</div>
                   <div className='text-2xl font-bold'>Rs.44.60</div>

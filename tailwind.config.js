@@ -15,6 +15,9 @@ module.exports = {
             },
             backgroundImage:{
                 'sliceDiv':"url('../public/fill.png')"
+            },
+            boxShadow:{
+                "custom":"5px 8px 10px 2px rgb(0 0 0 / 0.2)"
             }
         },
     },

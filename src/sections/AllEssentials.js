@@ -3,7 +3,7 @@ import AllEssentialsCircle from '../components/AllEssentialsCircle';
 
 const AllEssentials = () => {
     return (
-        <div className="flex flex-col items-center justify-center my-16 gap-12">
+        <div className="flex flex-col items-center justify-center my-32 gap-24">
             <div className="text-5xl font-bold text-[#856DFA]">All Essentials • #OneApp</div>
             <div className="flex w-full px-32 justify-around items-center">
                 <div className='w-2/5 flex flex-col gap-5'>
