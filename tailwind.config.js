@@ -13,6 +13,9 @@ module.exports = {
                 124:'32rem',
                 132: '36rem',
             },
+            backgroundImage:{
+                'sliceDiv':"url('../public/fill.png')"
+            }
         },
     },
     plugins: [],

@@ -18,33 +18,39 @@ const Landing = () => {
                     }}
                     transition={{
                         type: 'spring',
-                        stiffness: 260,
-                        damping: 20,
+                        stiffness: 180,
+                        damping: 15,
                     }}
                 >
                     <div className="concentric-circle"></div>
                     <img
-                        src="clock.png"
+                        src="burgerMeal.png"
                         alt=""
-                        className="h-36 absolute top-[2rem] left-[3rem]"
+                        className="h-48 absolute top-[2rem] left-[3rem] -rotate-[30deg]"
                     />
                     <img
-                        src="clock.png"
+                        src="groceries.png"
                         alt=""
-                        className="h-36 absolute top-[7rem] right-[1rem]"
+                        className="h-48 absolute top-[7rem] right-[1rem] -rotate-[30deg]"
                     />
                     <img
-                        src="clock.png"
+                        src="bills.png"
                         alt=""
-                        className="h-36 absolute top-[25rem] left-[1rem]"
+                        className="h-48 absolute top-[25rem] left-[1rem] -rotate-[30deg]"
                     />
-                    <div>
+
                         <img
-                            src="clock.png"
+                            src="medicines.png"
                             alt=""
-                            className="h-36 absolute top-[26rem] right-[3rem]"
+                            className="h-48 absolute top-[26rem] right-[3rem] -rotate-[30deg]"
                         />
-                    </div>
+
+                        <img
+                            src="coin.png"
+                            alt=""
+                            className="h-80 absolute top-[32rem] right-[10rem] -rotate-[30deg]"
+                        />
+
                 </motion.div>
 
                 <motion.div

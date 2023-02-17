@@ -2,6 +2,17 @@ import React from 'react'
 import OneAppImg from '../components/OneAppImg'
 
 const OneApp = () => {
+    const animation = {
+        rotate: [-30, 0, -30],
+    };
+    
+    const transition = {
+      duration: 2,
+      ease: "easeInOut",
+      repeat: Infinity,
+      repeatDelay:0
+    }
+
   return (
     <div>
         <div className='h-64 flex flex-col justify-center items-center gap-8'>
@@ -13,7 +24,7 @@ const OneApp = () => {
             </div>
         </div>
         <div className='h-108 rounded-3xl mx-28 border-4 border-[#6024E0] flex justify-evenly p-5 bg-[#F1F1FF]'>
-            <OneAppImg index={1} title={"Save time"} text={"Dont waste time by switching between apps"} img={"/clock.png"}/>
+            <OneAppImg index={1} transition={transition} animate={animation} title={"Save time"} text={"Dont waste time by switching between apps"} img={"/clock.png"}/>
             <OneAppImg index={2} title={"Save Money"} text={"We’ll get you the best deals, better pricing than elsewhere"} img={"/wallet.png"}/>
             <OneAppImg index={3} title={"Just use Qwk"} text={"Save time and money with Qwk"} img={"/qwk_logo.png"}/>
         </div>

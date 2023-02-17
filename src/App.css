@@ -21,3 +21,7 @@ body::-webkit-scrollbar {
     box-shadow: inset 0 0 0 80px #4126db, inset 0 0 0 160px #fff;
     opacity: 0.3  ;
 }
+
+.divCard {
+  clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
+}

@@ -15,7 +15,7 @@ const AllEssentialsCircle = () => {
             </div>
 
             <div className="absolute flex rounded-xl w-44 items-center p-3 gap-4 bg-white h-20 top-5 right-7">
-                    <img src="/clock.png" alt="" className="w-1/3" />
+                    <img src="/medicines.png" alt="" className="w-1/3 -rotate-[30deg]" />
                     <div className="flex flex-col gap-1">
                         <div className="font-bold text-lg">Get</div>
                         <div className="text-sm">Medicines</div>
@@ -23,7 +23,7 @@ const AllEssentialsCircle = () => {
                 </div>
 
                 <div className="absolute flex rounded-xl w-44 items-center p-3 gap-4 bg-white h-20 top-[8rem] right-0 ">
-                    <img src="/clock.png" alt="" className="w-1/3" />
+                    <img src="/bills.png" alt="" className="w-1/3 -rotate-[30deg]" />
                     <div className="flex flex-col gap-1">
                         <div className="font-bold text-lg">Bill</div>
                         <div className="text-sm">Payments</div>
@@ -38,7 +38,7 @@ const AllEssentialsCircle = () => {
                     </div>
                 </div>
 
-                <div className='flex flex-col rounded-xl h-72 w-44 absolute bottom-0 right-5 bg-white items-center'>
+                <div className='bg-white flex flex-col rounded-xl h-72 w-44 absolute bottom-0 right-5 items-center'>
                   <img src="burger.png" alt="" className='h-40 w-40'/>
                   <div className='my-3 text-sm'>Zinger Burger</div>
                   <div className='text-2xl font-bold'>Rs.184.60</div>

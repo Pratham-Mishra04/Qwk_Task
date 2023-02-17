@@ -9,7 +9,7 @@ const ReviewCard = ({ name, review, rating, img }) => {
     }
     return (
         <motion.div className="rounded-3xl flex flex-col w-1/3 gap-5 border-2 bg-slate-100 border-black p-10"
-        initial={{ scale: 1}}
+        initial={{ scale: 1, boxShadow:'0px 0px black'}}
                     
                     whileHover={{scale: 1.08, boxShadow:'10px 10px black'}}
                     transition={{
